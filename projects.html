@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silpa Prasad - Projects</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background: url('images/joanna.jpg') center top / cover no-repeat fixed;
+            background-color: #bcbcbc;
+        }
+
+        header {
+            padding: 40px 20px;
+            text-align: center;
+            background: rgba(28, 63, 148, 0.85); /* slightly transparent to see background */
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .project-section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .project {
+            display: flex;
+            flex-wrap: wrap;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        .project img {
+            width: 100%;
+            max-width: 300px;
+            object-fit: cover;
+            border-right: 1px solid #ddd;
+        }
+
+        .project-content {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .project-content h2 {
+            font-size: 26px;
+            color: #1c3f94;
+            margin-top: 0;
+        }
+
+        .project-content .tech {
+            font-weight: bold;
+            color: #c46210;
+            margin-bottom: 10px;
+        }
+
+        .project-content p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: rgba(28, 63, 148, 0.85);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .project {
+                flex-direction: column;
+            }
+            .project img {
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Projects</h1>
+    <p>Detailed showcase of my work and achievements</p>
+</header>
+
+<div class="project-section">
+
+    <!-- Project 1 -->
+    <div class="project">
+        <img src="https://via.placeholder.com/300x200.png?text=Restaurant+POS" alt="Restaurant POS">
+        <div class="project-content">
+            <h2>Restaurant POS System</h2>
+            <p class="tech">Ruby on Rails, PostgreSQL, AWS, Sidekiq, OAuth2</p>
+            <p>A cloud-based Point-of-Sale system for restaurants handling order management, billing, and inventory tracking. Integrated with analytics and real-time notifications for management efficiency.</p>
+            <p><strong>Key Achievements:</strong> Scalable backend architecture with microservices, implemented background jobs with Sidekiq, secure OAuth2 authentication, optimized database queries for high-volume transactions.</p>
+        </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+        <img src="https://via.placeholder.com/300x200.png?text=Order+Microservice" alt="Order Microservice">
+        <div class="project-content">
+            <h2>Order Management Microservice</h2>
+            <p class="tech">Golang, PostgreSQL, REST API, Docker</p>
+            <p>Microservice for handling distributed order workflows in an e-commerce platform, focusing on performance, reliability, and easy integration with other services.</p>
+            <p><strong>Key Achievements:</strong> Developed RESTful API endpoints, containerized service with Docker, optimized database for high-speed order processing.</p>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+        <img src="https://via.placeholder.com/300x200.png?text=Spring+Boot+API" alt="Spring Boot API">
+        <div class="project-content">
+            <h2>Java Spring Boot API</h2>
+            <p class="tech">Java, Spring Boot, PostgreSQL, JWT Authentication</p>
+            <p>Secure REST API for SaaS backend operations including role-based access, validation, and robust error handling.</p>
+            <p><strong>Key Achievements:</strong> Implemented JWT authentication, scalable database schema, unit and integration tests to ensure reliability.</p>
+        </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="project">
+        <img src="https://via.placeholder.com/300x200.png?text=CMS+Dashboard" alt="CMS Dashboard">
+        <div class="project-content">
+            <h2>CMS and Dashboard System</h2>
+            <p class="tech">Ruby on Rails, JavaScript, PostgreSQL, AWS</p>
+            <p>Content management and admin dashboard system for managing website content, users, and reports efficiently. Dynamic dashboards with analytics included.</p>
+            <p><strong>Key Achievements:</strong> Built dynamic dashboards, secure role-based access, implemented CRUD operations with clean MVC architecture.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    &copy; 2025 Silpa Prasad. All Rights Reserved.
+</footer>
+
+</body>
+</html>
