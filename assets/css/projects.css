@@ -1,0 +1,96 @@
+body {
+            background: url('https://images.unsplash.com/photo-1557683316-973673baf926')
+                center top / cover no-repeat fixed;
+            background-color: #bcbcbc; /* fallback */
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+            color: #fff;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Dark overlay for readability */
+        .overlay {
+            background: rgba(0, 0, 0, 0.24);
+            min-height: 100vh;
+            padding-bottom: 60px;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px 40px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+            font-weight: 700;
+            text-shadow: 0 3px 10px rgba(0,0,0,0.4);
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #e0e0e0;
+        }
+
+        /* Project Grid */
+        .projects-container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+
+        /* Project Card */
+        .project-card {
+            background: rgba(255, 255, 255, 0.95);
+            color: #333;
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+        }
+
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .project-content {
+            padding: 20px;
+        }
+
+        .project-content h2 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #1c3f94;
+        }
+
+        .tech {
+            font-weight: bold;
+            color: #c46210;
+            margin-bottom: 12px;
+            display: block;
+        }
+
+        .project-content p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+            opacity: 0.8;
+            margin-top: 40px;
+        }
