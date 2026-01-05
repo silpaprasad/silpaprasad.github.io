@@ -1,37 +1,66 @@
-Story by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Silpa Prasad — Developer Portfolio
+Welcome to my personal developer portfolio!
+This website showcases my professional experience, technical skills, and selected projects across backend development, full‑stack engineering, and continuous learning.
 
+About This Portfolio
 
-Say hello to Story, a brand new responsive one-pager for HTML5 UP! Inspired by my work
-on Carrd*, Story is built to be extremely modular and tweakable, and as such is entirely
-built on reusable, insanely customizable elements (like "spotlight" and "gallery") that
-can be endlessly duplicated and tweaked into whatever you need to tell your story --
-without, in many cases, touching *any* CSS. Check out index-demo.html for an interactive
-demo, and index.html for the actual template. Enjoy!
+This portfolio is designed to highlight:
+- My experience as a Backend / Full‑Stack Developer
+- Real‑world projects built using Ruby on Rails, Golang, Java, Spring Boot, PostgreSQL, Redis, AWS, and more
+- My continuous learning journey in backend architecture, system design, and cloud technologies
+- A clean, responsive UI built with modern web practices
 
-Demo images** courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+You can explore:
+- Home – Introduction & summary
+- Skills – Technical stack & tools
+- Projects – Detailed breakdown of real projects I’ve built
+- Experience – Professional background
+- Contact – Ways to reach me
 
-PS: Delete index-demo.html and assets/js/demo.js when you're done messing with the demo
-as neither are needed in production :)
+🛠️ Tech Stack
+Backend
+- Ruby on Rails
+- Golang
+- Java (Spring Boot, Spring Data JPA, Spring Security)
+- PostgreSQL, Redis, Memcached
+- REST APIs, Microservices
+Frontend
+- JavaScript, jQuery
+- React, TypeScript, Vue (learning)
+Cloud & DevOps
+- AWS (Lambda, CloudWatch, S3)
+- Docker
+- CI/CD fundamentals
+- Background workers (Sidekiq)
+Other
+- OAuth2, JWT
+- System design basics
+- Agile/Scrum workflows
 
-(* = my other side project -- carrd.co)
-(** = not included)
+📂 Featured Projects
+🍽️ Restaurant Ordering & POS Backend System
+A scalable backend powering restaurant ordering, POS operations, payments, and integrations with food delivery platforms.
+⚡ High‑Volume Order Processing Microservices
+Golang‑based microservices for high‑speed order routing, payment callbacks, and distributed workflows.
+📰 Content Management System Modernization
+Modernized a large CMS platform with improved architecture, migrations, and background processing.
+📘 Backend Learning & Practice Projects
+Ongoing hands‑on work with Java, Spring Boot, microservices, and algorithmic problem‑solving.
 
-AJ
-aj@lkn.io | @ajlkn
+🎯 Goals & Learning Focus
+I’m actively improving my skills in:
+- Backend architecture & scalable system design
+- Cloud deployment (AWS)
+- CI/CD workflows
+- Full‑stack development with React, TypeScript, and Vue
+- Data structures & algorithms
+- German language (A2 level)
 
+📬 Contact
+If you'd like to connect, collaborate, or discuss opportunities:
+- Email: silpasree9539@gmail.com
+- Location: Dortmund, Germany
 
-Credits:
+📄 License
+This portfolio is open for inspiration, but please do not copy it directly without permission.
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
