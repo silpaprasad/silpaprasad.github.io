@@ -41,6 +41,31 @@
 
     /* Canvas background (particles) */
 
+    /* Social Icons Container */
+.social-icons {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* Icon Links */
+.icon-link {
+    display: inline-block;
+    margin: 0 15px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Icon Images */
+.icon-link img {
+    width: 45px;
+    height: 45px;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+}
+
+/* Hover Effect */
+.icon-link:hover {
+    transform: scale(1.15);
+    opacity: 0.85;
+}
   #particles {
     position: fixed;
     top: 0;
@@ -277,6 +302,7 @@ html {
       }
     }
 
+    
     .about-visual {
       flex: 1;
       min-width: 220px;
@@ -304,6 +330,11 @@ html {
       margin-bottom: 14px;
     }
 
+    .about-section p {
+      text-align: justify;
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
     /* ===========================
        Experience & Education
     ============================ */
@@ -730,6 +761,12 @@ html {
   padding: 10px 0;
 }
 
+.skills-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
 .skills-track {
   display: flex;
   gap: 20px;
@@ -855,6 +892,10 @@ html {
       color: #2563eb;
       font-weight: 600;
     }
+    .contact-item-icon i {
+      font-size: 1rem;
+      line-height: 1;
+    }
 
     .contact-socials {
       text-align: center;
@@ -906,3 +947,8 @@ html {
     footer i {
       color: #9ca3af;
     }
+
+    
+    html, body {
+  overflow-x: hidden;
+}
